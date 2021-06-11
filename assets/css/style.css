@@ -1,0 +1,63 @@
+body{
+    color: #555;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgb(223, 186, 186);
+}
+.container{
+
+    width: "80%";
+    background-color: rgb(223, 217, 217);
+    text-align: justify;
+    margin:0 auto;
+}
+h1.title{
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 40px;
+
+}
+h1.title:hover{
+    text-decoration: underline;
+    color: cornflowerblue;
+    font-size: 30px;
+}
+.top-menu{
+    background-color: rgb(175, 16, 16);
+    overflow: hidden;
+}
+.top-menu ul li{
+    list-style: none;
+    float: left;
+    border-right: 2px solid black;
+    font-weight: bold;
+    padding: 5px 10px;
+
+}
+.top-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.top-menu ul li:hover{
+    background-attachment: fixed;
+    text-decoration: underline;
+}
+.last{
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding: 10px;
+
+
+}
+img.main-img{
+    width: 100%;
+    height: 40vh;
+
+}
+
+
